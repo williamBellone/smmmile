@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_general_answers",
+  "info": {
+    "name": "Answer",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "Value": {
+      "type": "string"
+    }
+  }
+}
