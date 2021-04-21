@@ -3,9 +3,15 @@ application:
   name: "smmmile"
   project: "Smmmile"
   organization: "QoveryCommunity"
+  storage:
+  - name: "storage"
+    size: "10"
+    type: "ssd"
+    mount_point: "/mnt/storage"
 databases:
 - type: "POSTGRESQL"
   name: "smmmile-db"
+  version: "11"
 routers:
 - name: "main-smmmile"
   routes:
