@@ -1,0 +1,14 @@
+---
+application:
+  name: "smmmile"
+  project: "Smmmile"
+  organization: "QoveryCommunity"
+databases:
+- type: "POSTGRESQL"
+  name: "smmmile-db"
+routers:
+- name: "main-smmmile"
+  routes:
+  - application_name: "smmmile"
+    paths:
+    - "/*"
